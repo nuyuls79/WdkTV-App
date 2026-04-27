@@ -12,33 +12,45 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # 1. Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 2. Set up JDK 17
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
 
+      # 3. Grant execute permission for Gradle wrapper
       - name: Grant execute permission for Gradle wrapper
         run: chmod +x ./gradlew
 
+      # 4. Build APK (Release)
       - name: Build APK (Release)
         run: ./gradlew clean :app:assembleRelease
 
+      # 5. Get version for release
       - name: Get version for release
         id: get_version
         run: |
           VERSION=$(date +'%Y%m%d.%H%M%S')
           echo "version=$VERSION" >> $GITHUB_OUTPUT
 
+      # 6. Prepare release APK (otomatis deteksi)
       - name: Prepare release APK
         run: |
           mkdir -p release
-          cp app/build/outputs/apk/release/app-release.apk release/extension.apk
-        # Jika gradle meng-outputkan APK dengan nama lain, ubah path di atas sesuai nama APK
+          APK_PATH=$(find . -type f -path "*/build/outputs/apk/release/*.apk" | head -n 1)
+          if [ -z "$APK_PATH" ]; then
+            echo "Error: APK tidak ditemukan!"
+            exit 1
+          fi
+          echo "Found APK: $APK_PATH"
+          cp "$APK_PATH" release/extension.apk
 
+      # 7. Create GitHub Release
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -49,6 +61,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # 8. Update latest tag
       - name: Update latest tag
         run: |
           git tag -f latest
