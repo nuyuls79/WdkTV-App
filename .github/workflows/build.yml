@@ -43,9 +43,9 @@ jobs:
           cp "$APK_PATH" release/app-release.apk
           echo "apk_path=release/app-release.apk" >> $GITHUB_OUTPUT
 
-      # 6. Upload APK as artifact
+      # 6. Upload APK as artifact (v4)
       - name: Upload APK artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: app-release
           path: ${{ steps.prepare_apk.outputs.apk_path }}
