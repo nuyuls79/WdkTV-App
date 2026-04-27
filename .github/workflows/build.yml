@@ -1,16 +1,14 @@
-name: Build and Release CloudStream Extension Test
+name: Build APK Artifact
 
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       # 1. Checkout repository
       - name: Checkout repository
@@ -31,15 +29,9 @@ jobs:
       - name: Build APK (Release)
         run: ./gradlew clean :app:assembleRelease
 
-      # 5. Get version for release
-      - name: Get version for release
-        id: get_version
-        run: |
-          VERSION=$(date +'%Y%m%d.%H%M%S')
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
-
-      # 6. Prepare release APK (otomatis deteksi)
-      - name: Prepare release APK
+      # 5. Find APK automatically
+      - name: Prepare APK artifact
+        id: prepare_apk
         run: |
           mkdir -p release
           APK_PATH=$(find . -type f -path "*/build/outputs/apk/release/*.apk" | head -n 1)
@@ -48,23 +40,12 @@ jobs:
             exit 1
           fi
           echo "Found APK: $APK_PATH"
-          cp "$APK_PATH" release/extension.apk
+          cp "$APK_PATH" release/app-release.apk
+          echo "apk_path=release/app-release.apk" >> $GITHUB_OUTPUT
 
-      # 7. Create GitHub Release
-      - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
+      # 6. Upload APK as artifact
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v3
         with:
-          tag_name: ${{ steps.get_version.outputs.version }}
-          name: Release ${{ steps.get_version.outputs.version }}
-          files: release/extension.apk
-          generate_release_notes: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # 8. Update latest tag
-      - name: Update latest tag
-        run: |
-          git tag -f latest
-          git push -f origin latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          name: app-release
+          path: ${{ steps.prepare_apk.outputs.apk_path }}
