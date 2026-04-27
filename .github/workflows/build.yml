@@ -1,4 +1,4 @@
-name: Build and Release CloudStream Extension
+name: Build and Release CloudStream Extension Test
 
 on:
   push:
