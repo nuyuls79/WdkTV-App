@@ -1,51 +1,44 @@
-name: Build APK Artifact
+name: Build Release (FINAL FIX)
 
 on:
-  push:
-    branches: [ main ]
   workflow_dispatch:
+  
 
 jobs:
   build:
+    name: Build Signed APK
     runs-on: ubuntu-latest
-
+    
     steps:
-      # 1. Checkout repository
-      - name: Checkout repository
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-      # 2. Set up JDK 17
-      - name: Set up JDK 17
+      - name: Siapkan Java (JDK 17)
         uses: actions/setup-java@v4
         with:
-          distribution: temurin
+          distribution: 'temurin'
           java-version: '17'
+          cache: 'gradle'
 
-      # 3. Grant execute permission for Gradle wrapper
-      - name: Grant execute permission for Gradle wrapper
-        run: chmod +x ./gradlew
-
-      # 4. Build APK (Release)
-      - name: Build APK (Release)
-        run: ./gradlew clean :app:assembleRelease
-
-      # 5. Find APK automatically
-      - name: Prepare APK artifact
-        id: prepare_apk
+      - name: Decode Keystore dari Secret
         run: |
-          mkdir -p release
-          APK_PATH=$(find . -type f -path "*/build/outputs/apk/release/*.apk" | head -n 1)
-          if [ -z "$APK_PATH" ]; then
-            echo "Error: APK tidak ditemukan!"
-            exit 1
-          fi
-          echo "Found APK: $APK_PATH"
-          cp "$APK_PATH" release/app-release.apk
-          echo "apk_path=release/app-release.apk" >> $GITHUB_OUTPUT
+          echo "${{ secrets.SIGNING_KEY }}" | base64 -d > app/release.keystore
 
-      # 6. Upload APK as artifact (v4)
-      - name: Upload APK artifact
+      - name: Izinkan Gradle
+        run: chmod +x gradlew
+
+      - name: Mulai Proses Build
+        run: ./gradlew assembleRelease
+        env:
+          KEYSTORE_PATH: release.keystore
+          ALIAS: ${{ secrets.ALIAS }}
+          KEY_STORE_PASSWORD: ${{ secrets.KEY_STORE_PASSWORD }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+
+      - name: Upload APK ke GitHub
         uses: actions/upload-artifact@v4
         with:
-          name: app-release
-          path: ${{ steps.prepare_apk.outputs.apk_path }}
+          name: StreamPlay-Release
+          # PERBAIKAN DISINI: 
+          # Menambahkan /**/ agar dia mencari di dalam folder 'stable' juga
+          path: app/build/outputs/apk/**/*.apk
