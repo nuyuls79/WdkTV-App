@@ -1,0 +1,9 @@
+{
+  "auth": {
+    "sessionSecret": "{\"id\":\"a5e43a0f-413d-4bb6-ae8b-f176dca10e69\",\"version\":2}",
+    "userId": "8dcde4f3-2732-4b6a-aa6c-78c295715eb4",
+    "username": "waduk",
+    "currentConnection": "Username-Password-Authentication"
+  },
+  "uuid": "04906eb1-3815-4fb7-bd69-f5e2af72215d"
+}
