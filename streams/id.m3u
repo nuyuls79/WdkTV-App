@@ -2,11 +2,11 @@
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1778465046~hmac=2e4c3e70de225f4d758f81b861ea87c881557355cbb137c030b9db3b81b90158
+https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1778468792~hmac=d16dd85c661729765060494857c21f92d80c795b0ec8b78a2f8fc9cf21932be8
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1778465046~hmac=bf9d25ada3d35f3ccdc0a30a840ab316792d10bce855969fc8ab0a8c26fd3b12
+https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1778468793~hmac=bf2d640801ed15cef606ebb31a984b7c372a447f890b0e775e0ceb91df3fffaa
 #EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png" group-title="TV Nasional", GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
@@ -14,4 +14,4 @@ https://vodkk24.rctiplus.id/hls/2024-03/kk_Sport_Channel_loop.m3u8
 #EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1778465047~hmac=730097750202d7640773a2da299058812a85c764dc5a6f15c020ef2b14fa43a6
+https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1778468793~hmac=1ae486ea85c75c89b7cce8e85c5e73912125549dba3d5d82cfbfca6a7dee1a14
