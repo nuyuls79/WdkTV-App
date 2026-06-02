@@ -2,16 +2,16 @@
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://vodkk23.rctiplus.id/hls/2023-12/kk_soccer_loop.m3u8
+https://vodkk24.rctiplus.id/hls/2024-03/kk_Sport_Channel_loop.m3u8
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780455781~hmac=6bbf375b1ffbde53b16404a59d5491b3868783a5903437ba61cb3059ff8de6cc
+https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780467130~hmac=9c6830f8b0c759d326fe17d290ae5a3fa9c4658eef6e5a820b456fe6febfddae
 #EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png" group-title="TV Nasional", GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780455782~hmac=231efa4687e25d7015a111a87fb663a030c7f8153a13b896449bab31ae62ffb2
+https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780467130~hmac=15838a84dd83e1335e132d9fec56e8f16e5b3cd1c477eb21fb857a991b0b7012
 #EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://vodkk23.rctiplus.id/hls/2023-12/kk_sportstar_loop.m3u8
+https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780467130~hmac=ffaea57072f5933822d7338ce7755e2f588122ab740d205a978a1306c4476680
