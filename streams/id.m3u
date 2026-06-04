@@ -2,16 +2,16 @@
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1780626854~hmac=fe6d1e898f9e6d94c7dce4cb08307261e66a93be44d7a7527bae88913427578b
+https://vodkk23.rctiplus.id/hls/2023-12/kk_soccer_loop.m3u8
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780626854~hmac=b23e1c6ef618fc9cbfa70cbc5e8262fc2e61bffcffff2c3d67f68bde0faf3447
+https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1780634158~hmac=7aa932dab1acd0f106a9464ffbfe5f3732d021fbdb68b54b3b227bc1e2f63705
 #EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png" group-title="TV Nasional", GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780626855~hmac=6334d2108ddc078e8308950ffdaed0877bfb1065b0f7e12ac782305859ee1030
+https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1780634159~hmac=a2a13eabe5c6faf197a078c4fc2c6da8c9c9c77dd4c64171fa76a77389e96788
 #EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780626855~hmac=3883f08f6c8814a099fa83a9af58ae14af94588ffd7b79cad6238b0a75e43836
+https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1780634159~hmac=bd1f91f7bb8dc1ee68d91919d2aacf51724a95d28ee5fa7e83c66e9041f98e10
