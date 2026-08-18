@@ -2,8 +2,8 @@
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1787123503~hmac=d9524053091948979c30ea50758e0a8401f01d5edb85fe7904664d95812e43d0
+https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1787124954~hmac=fb5d057b37b9158b7780c4f0812c0a245531223250b22ef8aa07d5e68d95628c
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1787123504~hmac=315cc8bebf27346b378a07c95cea61e5697587a297664d4560b6be17e05dd422
+https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1787124954~hmac=ae8a496c86ce68840bc363c7c4156917c04543f004557d5acdc7e9ade65020bc
