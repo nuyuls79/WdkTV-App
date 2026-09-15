@@ -1,9 +1,17 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
+#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1789544405~hmac=79c4fc6c3656bc6332e0181b878eee82bdbe68d3feb6f9ef4bfa1d869cc35a11
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1789533058~hmac=3e7e2fe25bd705653f6751a6ec40b1f97af111efd080612d01db27f606444009
+https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1789544406~hmac=b553690b6c620c03a210e45f6565baac2d8b5147f7ae7f84fda72500d34ada16
 #EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png" group-title="TV Nasional", GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1789533058~hmac=85bf7a9e3e5d3ed7c86cb67318e911a3d96a9383e55544d9057e56fb4e88a1ad
+https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1789544406~hmac=ea312a5f01a81d4c5c3d9b9c148a0a9ecab509ad522655cb090e3cef8bcfe6ca
+#EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
+#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1789544406~hmac=2496dede792fd01f698b75fe1a1f4035a67ebed8151c0817b5198bd5fb9348b7
