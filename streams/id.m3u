@@ -2,16 +2,12 @@
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://midcache-nt.rctiplus.id/abvia/itaitu/manifest720.m3u8
+https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1790481020~hmac=fabb9d6d8a8097c976a1880130bd10764996e70b49efc3689f0018bda905df3e
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1790468730~hmac=a52fd07d8926b4e92948e64f4e2302faa4aaf47c960bf1fe71c75900d5bdca44
-#EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png" group-title="TV Nasional", GTV
-#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://midcache-nt.rctiplus.id/abvia/itaitu/manifest720.m3u8
+https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1790481020~hmac=3d150961ad635fdafb9475fb37027f8ca95bc0e403572a0ecc40f832f26e4da7
 #EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1790468730~hmac=94fc1d9e91f363806f0993e5621bdcc633eb1f9b50501237df6f39eef1f86246
+https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1790481021~hmac=323c57c6605a171a475e4af46a58440ae071ee74de6ba097ec7533258867aaf6
