@@ -1,5 +1,17 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
+#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1790676641~hmac=3c8708974fa061dbffb50863809d8a9330d51548243d4d00dbcc6191a36737eb
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1790661482~hmac=ab7b11f32e0a347d2d89bde4eca1e6b27ad9253019151c8fcb7b3699e63a31f0
+https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1790676641~hmac=7b5988af84b4261467b2dff50e44cdd1a0019dd715e0cc8ef97dd783a944afb4
+#EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png" group-title="TV Nasional", GTV
+#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1790676641~hmac=d3a27e898b293a4b6ee00060e6f32e246bff81a9d3252c9f3a03a323c312f225
+#EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
+#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1790676642~hmac=51229c06be148474f40dbc851c46a8a1a4f3baf4d7e8a1b11d5920448bcefed6
