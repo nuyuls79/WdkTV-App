@@ -2,16 +2,16 @@
 #EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://proxy-b.rctiplus.id/live/mweb/rcti/index.m3u8?auth_key=1792881495-6d83291c47d178cf66454cbe8574f8e9-0-bc0c6fab20d889a74875be3c9a67e404
+https://proxy-b.rctiplus.id/live/mweb/rcti/index.m3u8?auth_key=1792889473-1f44f4006ac059d5e0bc5894ed1c51d3-0-b20079de3406bfaa4b050e0b17217eba
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1792881495-7b0d3a39508bee9b39b7a3d10c82741e-0-85a8a2ca9ae419ae836cb1dc6d3df888
+https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1792889473-cf2364cbcc730be97c20070334eac02d-0-3bde6c3086195fb56169b32cffc0d16e
 #EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png" group-title="TV Nasional", GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://proxy-b.rctiplus.id/live/mweb/gtv/index.m3u8?auth_key=1792881495-29cf99a27ea45003b134a6a9e1357d5f-0-56e7332f5c1d7504e6c9353e23d72ea2
+https://proxy-b.rctiplus.id/live/mweb/gtv/index.m3u8?auth_key=1792889473-604abc7750cdedd25c5dcc64d40a897d-0-8904af77ef5b4189fe89f56330fafd88
 #EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://proxy-b.rctiplus.id/live/mweb/inews/index.m3u8?auth_key=1792881496-7f9f80b72980e72a6b101fdf1198f4a8-0-8bf8d1e4b23b7b5de32af1e279562ee9
+https://proxy-b.rctiplus.id/live/mweb/inews/index.m3u8?auth_key=1792889474-f3bc46c2b04b7f0b8fbbbcb3187ba447-0-596125d79a3ab3b2ad573313e682af0c
