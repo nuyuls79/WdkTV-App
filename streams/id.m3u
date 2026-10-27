@@ -1,5 +1,17 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="RCTI" tvg-name="RCTI" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png" group-title="TV Nasional", RCTI
+#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+https://proxy-b.rctiplus.id/live/mweb/rcti/index.m3u8?auth_key=1793151603-8747a8ad5e8783dee87e0324379556be-0-f5b58e32f4ee1b3dbc7e268e7c4f5bac
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png" group-title="TV Nasional", MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
-https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1793137960-189278b9b2a850656dc03eb1d7ba8ee3-0-9e21201d1f1e38c45a6dd22a6a38f1e5
+https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1793151604-d91fbf9e07bc2b086653c33ad935ddb6-0-5ee0e983550718ab0b8a0a5a83f54af6
+#EXTINF:-1 tvg-id="GTV" tvg-name="GTV" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png" group-title="TV Nasional", GTV
+#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+https://proxy-b.rctiplus.id/live/mweb/gtv/index.m3u8?auth_key=1793151604-bb6f75cf016ec630ba8a73a4eebb1d3e-0-129c1ec51724ec50ff07ea0a82865270
+#EXTINF:-1 tvg-id="iNews" tvg-name="iNews" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png" group-title="TV Nasional", iNews
+#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Mobile Safari/537.36
+https://proxy-b.rctiplus.id/live/mweb/inews/index.m3u8?auth_key=1793151604-6ec8ed46cb08f67d8f350a78812e0c52-0-0fbba6fd3fb2700c0954240019bc61d9
